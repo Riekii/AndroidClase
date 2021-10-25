@@ -15,7 +15,8 @@
         android:inputType="textPersonName"
         android:text="Nombre"
         app:layout_constraintBottom_toTopOf="@+id/altura"
-        tools:layout_editor_absoluteX="100dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/edad"
@@ -24,11 +25,9 @@
         android:layout_marginBottom="28dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Edad"
         app:layout_constraintBottom_toTopOf="@+id/nombre"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.988"
-        tools:layout_editor_absoluteX="100dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/altura"
@@ -39,7 +38,8 @@
         android:inputType="textPersonName"
         android:text="Altura"
         app:layout_constraintBottom_toTopOf="@+id/peso"
-        tools:layout_editor_absoluteX="100dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/peso"
@@ -50,7 +50,8 @@
         android:inputType="textPersonName"
         android:text="Peso"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="100dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/imageView"
